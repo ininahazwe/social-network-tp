@@ -72,7 +72,7 @@ export default class Register extends React.Component {
          */
         return (
             <Container>
-                <Text>Register</Text>
+                <Username>Register</Username>
                 <LoginInput value={this.state.email} onChangeText={this.handleChangeEmail} placeholder='email' />
                 <LoginInput value={this.state.username} onChangeText={this.handleChangeUsername} placeholder='nom d,utilisateur' />
                 <LoginInput value={this.state.firstname} onChangeText={this.handleChangeFirstname} placeholder='nom' />
